@@ -1,0 +1,26 @@
+*,body
+{
+    margin:0;
+    padding: 0;
+}
+#heading
+{
+    text-transform: uppercase;
+    color: rosybrown;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.work{
+    list-style: none;
+}
+.work-item
+{
+ list-style: none;
+ display:block;
+ background-color:sandybrown;
+ width: 100%;
+ height:300px;
+}
+.work-item:nth-child(even)
+{
+    background-color:white;
+}
