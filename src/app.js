@@ -9,7 +9,7 @@ $(document).ready(function()
         logit(name);
         function callit()
         {
-            $("#result").load('src/articles/index.html');
+            $(".main").load('src/articles/index.html');
         }
         callit();
 
