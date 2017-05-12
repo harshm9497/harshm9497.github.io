@@ -1,0 +1,18 @@
+.box
+{
+    display: block;
+    height: 90px;
+    width: 100%;
+    background-color: sandybrown;
+    box-shadow: 1px 2px 3px 1px black;
+}
+.box > h1
+{
+    color: snow;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box > h2
+{
+    position: relative;
+    left: 80%;
+}
