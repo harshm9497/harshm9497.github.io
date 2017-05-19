@@ -11,7 +11,7 @@ $(document).ready(function()
         {
             location.href = 'src/quotes/';
         }
-            console.log("item clicked is "+ data);
+         
         }
         logit(name);
       
