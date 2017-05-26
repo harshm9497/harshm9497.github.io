@@ -11,14 +11,14 @@ var throwQuote = function(){
             for(var num = count; num<count+30;num++)
     {
         
-        $("#quotes").append("<div class='box' data-index='"+num +"'><h1>" + data[num].text+"</h1>"+
+        $("#quotes").append("<div class='col-sm-6 box' data-index='"+num +"'><h1>" + data[num].text+"</h1>"+
         "<h2>"+data[num].author+"</h2></div>");
            
     }
         };
         throwQuote();
         count = 20;
-    $("#generate").on('click',function()
+    $(".generate ").on('click',function()
     {
         $("#quotes").empty();
          throwQuote();

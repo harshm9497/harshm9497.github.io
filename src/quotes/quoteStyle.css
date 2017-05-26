@@ -10,20 +10,9 @@ body
 }
 .box
 {
-    display: block;
-    height: 250px;
-    width: 100%;
-    background-color:rgba(244,244,244,.8);
-    box-shadow: 1px 2px 3px 1px black;
-    border-radius:6px;
-    transition: .3s;
-    margin-bottom: 8px;
-    cursor: pointer;
+      border: 2px solid rgba(0,0,0,.4);
 }
-.box:hover
-{
-    box-shadow: 2px 3px 5px 2px black;
-}
+
 .box > h1
 {
     margin-left:    4%;
@@ -35,22 +24,21 @@ body
 .box > h2
 {
     position: relative;
-    margin-left: 80%;
-    margin-top: 10%;
+   
     color:darkcyan;
     font-size: 30px;
 }
-#generate
+.generate
 {
     width: 150px;
     height: 75px;
     -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
+    -moz-border-radius: 3px;
     border-radius: 7px;
-    background-color:darkmagenta;
+    background-color:rgba(124, 212,199, .6);
     border: soled darkmagenta;
     position: relative;
   
-    box-shadow:0px 2px 3px 1px grey;
+    box-shadow:2px 3px 3px 3px grey;
 
 }
