@@ -11,8 +11,8 @@ var throwQuote = function(){
             for(var num = count; num<count+30;num++)
     {
         
-        $("#quotes").append("<div class='col-sm-6 box' data-index='"+num +"'><h1>" + data[num].text+"</h1>"+
-        "<h2>"+data[num].author+"</h2></div>");
+        $("#quotes").append("<div class='col-lg-6 box ' data-index='"+num +"'><h2>" + data[num].text+"</h2>"+
+        "<h3>"+data[num].author+"</h3></div>");
            
     }
         };
