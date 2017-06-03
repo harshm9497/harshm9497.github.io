@@ -7,12 +7,12 @@ $(document).ready(function(){
         console.log(total);
          
 var throwQuote = function(){
-    $("#quotes").append("<h1 class='heading'>PAGE"+ (count/20+1) +"</h1>");
+    $("#quotes").append("<p class='heading'>PAGE"+ (count/20+1) +"</p>");
             for(var num = count; num<count+30;num++)
     {
         
-        $("#quotes").append("<div class='col-lg-6 box ' data-index='"+num +"'><h2>" + data[num].text+"</h2>"+
-        "<h3>"+data[num].author+"</h3></div>");
+        $("#quotes").append("<div class='col-lg-6 box ' data-index='"+num +"'><h3>" + data[num].text+"</h3>"+
+        "<span>"+data[num].author+"</span></div>");
            
     }
         };
