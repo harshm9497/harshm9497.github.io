@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-  var quotes= $.getJSON("quotelist.json", function(data)
+  var quotes= $.getJSON("quoteList.json", function(data)
     {
           console.log(data.length);
        appendQuote(data);
