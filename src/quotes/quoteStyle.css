@@ -1,62 +1,48 @@
-*,body
-{
-    margin: 0;
-    padding: 0;
-}
-body
-{
-    display: none;
-    background:linear-gradient(-90deg,lightgoldenrodyellow,gold);
-   
+body{
+    background-color: mediumorchid;
 }
 .box
 {
-    box-shadow: 3px 2px 1px 1px rgba(0,0,0,.4);
-    border-radius: 3px;
-    margin-bottom: 8px;
-    background-color:plum!important;
-   
+    border-right-width: 5px rgba(0,0,0,.6);
+    background-color: royalblue;
+    display: block; 
+    height: 200px;
+    width: 80%;
+    left: 12%;
+    padding-right: 7%;
+    clip-path: polygon(0 0, 95% 8%, 98% 95%, 0% 100%);
+    filter:  drop-shadow(-70px 15px 5px  rgba(0,0,0,0.75));
 }
-.box:nth-child(odd)
-{
-    background-color: palegreen!important;
+.box:nth-child(even)
+{   
+    clip-path: polygon(5% 9%, 100% 0, 100% 100%, 3% 94%);
+     box-shadow:  30px 5px 10px black;
 }
-.box:hover
-{
-    box-shadow: 6px 3px 2px 4px rgba(0,0,0,.4);
-    border-radius:5px;
-    box-sizing: border-box;
-    
-}
-
-.box > h3
-{
-    padding-top: 5px;
-    color: darkblue;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-}
-.box > span
-{
+.box>h3{
     position: relative;
-   
-    color:darkcyan;
-    font-size: 30px;
+    color: snow;
+    text-transform: uppercase;
+    top: 45%;
+    left: 40%;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+    text-shadow: 3px 2px 3px grey;
+
 }
-@media screen and (min-width:767px)
-{
-    body
-        {
-            background:linear-gradien(blue,lightblue);
-           
-        }
-    .box:nth-child(even)
-    {
-        height: 260px!important;
-        background-color:rgba(0,0,0,.1)!important;
-    }
-    .box:nth-child(odd){
-        height: 260px!important;
-        background-color:rgba(0,0,0,.1)!important;
-    }
+.box >h4{
+    position: relative;
+    overflow-x: hidden;
+    top:20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    left: 6%;
+}
+.box>p{
+    position: relative;
+    padding-top: 25px;
+    left: 60%;
+    color: rebeccapurple;
+    font-size: 20px;
+    font-family: monospace;
 }

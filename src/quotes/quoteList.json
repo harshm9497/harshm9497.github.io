@@ -1,3 +1,5 @@
-[{"author":"harsha","quotes":["neech ","kameena","kutha"]},
-{ "author":"same-harsha","quotes":["balupu","pook-gaadu"]}
- ]
+[
+    {"category":"geek"},
+    {"category":"wisdom"},
+    {"category":"Love"}
+]

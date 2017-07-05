@@ -1,0 +1,32 @@
+/*
+$(document).ready(function(){
+ 
+    var quotes= $.getJSON("quotes.json", function(data)
+    {
+        var total= data.length;
+        console.log(total);
+         
+        var throwQuote = function(){
+        $("#quotes").append("<p class='heading'>PAGE"+ (count/20+1) +"</p>");
+            for(var num = count; num<count+30;num++)
+        {
+        
+        $("#quotes").append("<div class='col-lg-6 box ' data-index='"+num +"'><h3>" + data[num].text+"</h3>"+
+        "<span>"+data[num].author+"</span></div>");
+           
+     }
+        };
+        throwQuote();
+        count = 20;
+      $(".generate ").on('click',function()
+     {
+        $("#quotes").empty();
+         throwQuote();
+        count+=20;
+        $('html, body').animate({ scrollTop: 0 }, 0);
+         });
+ });  
+        $("body").fadeIn(2000);
+});
+*/
+
