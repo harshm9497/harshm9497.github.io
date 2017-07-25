@@ -1,6 +1,31 @@
 body{
     background-color: blanchedalmond;
 }
+.page-container
+{
+ padding: 15px 10px;
+ height: 70px;
+ width: 100%;
+ display: flex;
+ position: fixed;
+ top: 91%;
+ left: 0%;
+ cursor: pointer;
+ z-index: 555;
+ background-color: rgba(0,0,0,.4);
+}
+.page-item
+{
+    display: inline-block;
+    list-style: none;
+    height: 55px;
+    width: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+    
+    
+}
 .box
 {
     border-right-width: 5px rgba(0,0,0,.6);
@@ -8,7 +33,6 @@ body{
     display: block; 
     height: 200px;
     width: 80%;
-   
     left: 12%;
     padding-right: 7%;
     clip-path: polygon(0 0, 95% 8%, 98% 95%, 0% 100%);
